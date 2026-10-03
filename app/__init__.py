@@ -1,0 +1,1 @@
+"""Semantic cache RAG application."""

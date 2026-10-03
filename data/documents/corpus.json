@@ -1,0 +1,10 @@
+[
+ {"id":"refund","title":"Refund Policy","text":"Customers may request a full refund within 30 days of purchase. Refunds are returned to the original payment method within five business days. Annual plans are prorated after the first 30 days."},
+ {"id":"shipping","title":"Shipping Policy","text":"Standard domestic shipping takes three to five business days. Express shipping takes one to two business days. Orders over 50 dollars qualify for free standard shipping."},
+ {"id":"security","title":"Security Overview","text":"Customer data is encrypted in transit with TLS and at rest with AES-256. Access is limited by role based access controls and audit logs are retained for one year."},
+ {"id":"privacy","title":"Privacy Policy","text":"We collect account contact details and product usage events to operate the service. Customers can request deletion of personal data through support."},
+ {"id":"support","title":"Support Service Level","text":"Email support is available Monday through Friday. Enterprise customers receive a four hour initial response target and standard customers receive a two business day target."},
+ {"id":"billing","title":"Billing Guide","text":"Subscriptions renew automatically on the billing anniversary. Customers can cancel from account settings; service remains active until the end of the paid period."},
+ {"id":"availability","title":"Availability","text":"The service has a 99.9 percent monthly uptime objective. Scheduled maintenance is announced at least 72 hours in advance."},
+ {"id":"api","title":"API Guide","text":"API requests require a bearer token. The default rate limit is 100 requests per minute per workspace. Exceeding it returns HTTP 429."}
+]

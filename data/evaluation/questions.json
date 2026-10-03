@@ -1,0 +1,10 @@
+[
+ {"question":"What is the refund policy?","expected_source":"refund"},
+ {"question":"Can I get my money back within thirty days?","expected_source":"refund"},
+ {"question":"How long does standard shipping take?","expected_source":"shipping"},
+ {"question":"What encryption protects customer data?","expected_source":"security"},
+ {"question":"How do refunds and cancellation differ?","expected_source":"refund"},
+ {"question":"What is the API rate limit?","expected_source":"api"},
+ {"question":"When is support available?","expected_source":"support"},
+ {"question":"What is the uptime objective?","expected_source":"availability"}
+]

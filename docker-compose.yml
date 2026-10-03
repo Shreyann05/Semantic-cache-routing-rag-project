@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    volumes: ["./data:/app/data"]
+  dashboard:
+    build: .
+    command: streamlit run dashboard/app.py --server.address 0.0.0.0
+    ports: ["8501:8501"]
+    volumes: ["./data:/app/data"]
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports: ["6333:6333"]
